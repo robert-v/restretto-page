@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restretto — Short. Strong. Refreshing.</title>
+
+    <!-- Tailwind Play CDN (great for a single-file landing page) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <meta name="description" content="Restretto is a minimal macOS REST client — short, strong, and refreshing." />
+  </head>
+
+  <body class="min-h-screen bg-zinc-950 text-zinc-50 antialiased">
+    <main class="mx-auto flex min-h-screen max-w-3xl flex-col justify-center px-6 py-16">
+      <header class="space-y-6">
+        <div class="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-xs text-zinc-300 ring-1 ring-white/10">
+          <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+          Native macOS REST client
+        </div>
+
+        <h1 class="text-balance text-4xl font-semibold tracking-tight sm:text-6xl">
+          Restretto
+          <span class="block text-zinc-300">Short. Strong. Refreshing.</span>
+        </h1>
+
+        <p class="text-pretty text-lg leading-relaxed text-zinc-300 sm:text-xl">
+          A focused REST client for macOS: send requests fast, inspect responses clearly,
+          and stay in flow.
+        </p>
+
+        <div class="flex flex-col gap-3 sm:flex-row sm:items-center">
+          <!-- TODO: Replace href with your real download URL -->
+          <a
+            href="https://example.com/restretto/download"
+            class="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-medium text-zinc-950 shadow-sm hover:bg-zinc-100 focus:outline-none focus:ring-2 focus:ring-white/30"
+          >
+            Download for macOS
+          </a>
+
+          <!-- Optional secondary link -->
+          <a
+            href="https://example.com/restretto"
+            class="inline-flex items-center justify-center rounded-xl bg-white/5 px-5 py-3 text-sm font-medium text-white ring-1 ring-white/10 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/30"
+          >
+            Learn more
+          </a>
+        </div>
+
+        <p class="text-xs text-zinc-400">
+          By an indie macOS developer. No fluff. Just requests.
+        </p>
+      </header>
+
+      <section class="mt-12 border-t border-white/10 pt-10">
+        <div class="grid gap-6 sm:grid-cols-3">
+          <div class="space-y-2">
+            <h2 class="text-sm font-semibold text-white">Client certificates</h2>
+            <p class="text-sm leading-relaxed text-zinc-400">
+              Authenticate with mTLS when you need it.
+            </p>
+          </div>
+
+          <div class="space-y-2">
+            <h2 class="text-sm font-semibold text-white">Environments & variables</h2>
+            <p class="text-sm leading-relaxed text-zinc-400">
+              Keep Dev/Prod tidy with per-folder variables.
+            </p>
+          </div>
+
+          <div class="space-y-2">
+            <h2 class="text-sm font-semibold text-white">Run folders</h2>
+            <p class="text-sm leading-relaxed text-zinc-400">
+              Fire a whole set of requests in one go.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="mt-14 flex items-center justify-between border-t border-white/10 pt-8 text-xs text-zinc-500">
+        <span>© <span id="year"></span> Restretto</span>
+        <a class="hover:text-zinc-300" href="mailto:hello@example.com">Contact</a>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
