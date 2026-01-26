@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Restretto</title>
+        <item>
+            <title>1.0.3</title>
+            <pubDate>Mon, 26 Jan 2026 12:39:23 +0100</pubDate>
+            <sparkle:fullReleaseNotesLink>https://restretto.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
+            <sparkle:version>1.0.3</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://restretto.app/archive/Restretto_1.0.3.zip" length="14291257" type="application/octet-stream" sparkle:edSignature="rE0moHYGyIdkFSZK40Aqs7shrhOf4RTRzCVYKvE0lzEIFqPj2wvssqG3m3HLD+dc5uXkaeHWdoqXyltep2t+AA=="/>
+        </item>
+        <item>
+            <title>1.0.2</title>
+            <pubDate>Mon, 26 Jan 2026 12:33:54 +0100</pubDate>
+            <sparkle:fullReleaseNotesLink>https://restretto.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
+            <sparkle:version>1.0.1</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="Restretto_1.0.2.zip" length="13377549" type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
