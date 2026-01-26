@@ -3,6 +3,18 @@
     <channel>
         <title>Restretto</title>
         <item>
+            <title>1.0.4</title>
+            <pubDate>Mon, 26 Jan 2026 14:35:53 +0100</pubDate>
+            <sparkle:fullReleaseNotesLink>https://restretto.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
+            <sparkle:version>1.0.4</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://restretto.app/archive/Restretto_1.0.4.zip" length="14316072" type="application/octet-stream" sparkle:edSignature="cGNtJIpYvqF/T6+f879WZuox8hplw3n1GfBRdgdUOirfZIDjHMqUmBH+mt5GMBL+ghkMKw95eEKvBwl6s9knDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://restretto.app/archive/Restretto1.0.4-1.0.3.delta" sparkle:deltaFrom="1.0.3" length="321730" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nBwd9AOFTc6VmoU4W7QlyR0zfgWISpbBZCQOkENiuGOzNqz3GD5QSxwPbSE63khmc7j99pg1nQtY/yaeR7CLDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Mon, 26 Jan 2026 12:39:23 +0100</pubDate>
             <sparkle:fullReleaseNotesLink>https://restretto.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
