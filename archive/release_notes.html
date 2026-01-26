@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow">
+    <title>Release Notes — Restretto</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <meta name="description" content="Release notes and changelog for Restretto macOS client." />
+  </head>
+
+  <body class="min-h-screen bg-zinc-950 text-zinc-50 antialiased selection:bg-emerald-500/30">
+    <main class="mx-auto flex min-h-screen max-w-3xl flex-col px-6 py-12">
+      
+      <!-- Navigation / Header -->
+      <header class="mb-16 flex items-center justify-between">
+        <a href="/" class="group flex items-center gap-2 text-sm font-medium text-zinc-400 transition hover:text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transition group-hover:-translate-x-1"><path d="m15 18-6-6 6-6"/></svg>
+          Restretto
+        </a>
+        
+        <div class="inline-flex items-center gap-2 rounded-full bg-white/5 px-3 py-1 text-xs text-zinc-300 ring-1 ring-white/10">
+          <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+          Latest: v1.2.0
+        </div>
+      </header>
+
+      <div class="mb-12">
+        <h1 class="text-3xl font-semibold tracking-tight sm:text-4xl">
+          Release Notes
+        </h1>
+        <p class="mt-4 text-lg text-zinc-400">
+          New features, fixes, and improvements.
+        </p>
+      </div>
+
+      <!-- Timeline Container -->
+      <div class="relative space-y-12 border-l border-white/10 pl-8 ml-2">
+        
+        <!-- Release Item: v1.2.0 -->
+        <section class="relative">
+          <!-- Timeline Dot -->
+          <span class="absolute -left-[37px] top-1.5 h-3 w-3 rounded-full bg-emerald-500 ring-4 ring-zinc-950"></span>
+          
+          <div class="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:gap-4">
+            <h2 class="text-xl font-semibold text-white">v1.2.0</h2>
+            <time class="text-xs font-medium text-zinc-500">January 24, 2026</time>
+          </div>
+
+          <ul class="mt-4 space-y-3 text-sm leading-relaxed text-zinc-300">
+            <li class="flex items-start gap-3">
+              <span class="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-zinc-500"></span>
+              <span><strong class="text-zinc-100">Environment Variables:</strong> You can now define variables per folder and reference them in your requests using <code class="rounded bg-white/10 px-1 py-0.5 text-xs">{{key}}</code> syntax.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-zinc-500"></span>
+              <span>Added support for <strong class="text-zinc-100">Brotli compression</strong> in response handling.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-zinc-500"></span>
+              <span>Fixed an issue where pasting a cURL command with single quotes would sometimes fail to parse headers correctly.</span>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Release Item: v1.1.0 -->
+        <section class="relative">
+          <span class="absolute -left-[37px] top-1.5 h-3 w-3 rounded-full bg-zinc-800 ring-4 ring-zinc-950"></span>
+          
+          <div class="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:gap-4">
+            <h2 class="text-xl font-semibold text-white">v1.1.0</h2>
+            <time class="text-xs font-medium text-zinc-500">December 10, 2025</time>
+          </div>
+
+          <ul class="mt-4 space-y-3 text-sm leading-relaxed text-zinc-300">
+             <li class="flex items-start gap-3">
+              <span class="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-zinc-500"></span>
+              <span><strong class="text-zinc-100">cURL Import:</strong> New "Paste from Clipboard" action automatically detects and parses cURL commands.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-zinc-500"></span>
+              <span>Response inspector now includes a <strong class="text-zinc-100">JSON path finder</strong>. Click any key in the JSON tree to copy its path.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-zinc-500"></span>
+              <span>Improved scroll performance in the history console for large response bodies.</span>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Release Item: v1.0.0 -->
+        <section class="relative">
+          <span class="absolute -left-[37px] top-1.5 h-3 w-3 rounded-full bg-zinc-800 ring-4 ring-zinc-950"></span>
+          
+          <div class="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:gap-4">
+            <h2 class="text-xl font-semibold text-white">v1.0.0</h2>
+            <time class="text-xs font-medium text-zinc-500">November 15, 2025</time>
+          </div>
+
+          <div class="mt-4 text-sm leading-relaxed text-zinc-300">
+            <p>Initial public release of Restretto.</p>
+            <ul class="mt-3 space-y-2">
+              <li class="flex items-start gap-3">
+                <span class="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-zinc-500"></span>
+                Native macOS UI/UX
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-zinc-500"></span>
+                Folder organization
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-zinc-500"></span>
+                Response inspector
+              </li>
+            </ul>
+          </div>
+        </section>
+
+      </div>
+
+      <footer class="mt-auto pt-24 text-xs text-zinc-500">
+        <div class="flex items-center justify-between border-t border-white/10 pt-8">
+           <span>© <span id="year"></span> Restretto</span>
+           <a class="hover:text-zinc-300" href="mailto:processspy@icloud.com">Contact Support</a>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <!-- Analytics scripts preserved from original -->
+    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+  </body>
+</html>
