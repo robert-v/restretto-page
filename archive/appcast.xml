@@ -3,6 +3,22 @@
     <channel>
         <title>Restretto</title>
         <item>
+            <title>1.0.11</title>
+            <pubDate>Fri, 13 Feb 2026 09:50:55 +0100</pubDate>
+            <sparkle:fullReleaseNotesLink>https://restretto.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
+            <sparkle:version>1.0.11</sparkle:version>
+            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://restretto.app/archive/Restretto_1.0.11.zip" length="14581684" type="application/octet-stream" sparkle:edSignature="raLCr7bNr6289x8TS5nviplcHcpRGSkgBVpCKqKPqq2UjzjbGblgvNP0oKQipb6ZOtSKGoe+lNuXmQsnpKrmBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://restretto.app/archive/Restretto1.0.11-1.0.10.delta" sparkle:deltaFrom="1.0.10" length="264226" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NvXgkeZYNv4wSGJdylt8l0QDm0GX+BwOTipc4HXeDigLwnj/CWePVLj9tXDeeBlykRc3PVGw/gaWRcyEHp3JCQ=="/>
+                <enclosure url="https://restretto.app/archive/Restretto1.0.11-1.0.9.delta" sparkle:deltaFrom="1.0.9" length="306106" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kvsfgXbl3ya8mF4gtzoM9LLahkl8xcc8C9sbBaEPcWIIygusXKZyk+HA77FYS4hq/ISYtdEzggh2ph1oW/oDBg=="/>
+                <enclosure url="https://restretto.app/archive/Restretto1.0.11-1.0.7.delta" sparkle:deltaFrom="1.0.7" length="368062" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2YiBXN/bZkOqTFVVTPnM1kUKE5Erds9eoTR5VXDK0vFM0rXQbJ+1SEHha706JcDHM1dFDxCPVyT7GFPxvIqwBw=="/>
+                <enclosure url="https://restretto.app/archive/Restretto1.0.11-1.0.6.delta" sparkle:deltaFrom="1.0.6" length="419710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="er/WL7eXdSZJMi2fJC8OD5gg8DFwYVM31/3tZAe0RU9KwkConFrmUoQ0OUI6p5GEdRHqbImnl9O/BhAalYJqAg=="/>
+                <enclosure url="https://restretto.app/archive/Restretto1.0.11-1.0.5.delta" sparkle:deltaFrom="1.0.5" length="1586402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="obdLuAG0P+NWZXVcclG7hud7au45/ltiiE6uxXOZnLVGcIL40Ul5iFH926OheribJZ4dsUmDTgqWaxUfT7vgDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.10</title>
             <pubDate>Wed, 11 Feb 2026 09:30:21 +0100</pubDate>
             <sparkle:fullReleaseNotesLink>https://restretto.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
@@ -32,21 +48,6 @@
                 <enclosure url="https://restretto.app/archive/Restretto1.0.9-1.0.5.delta" sparkle:deltaFrom="1.0.5" length="1549526" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QWqc2CQCDyKfIjvohFWMMXxtZF2WS427esY0kgSCZnsrZa7Z71JSGl8Rt7DXItBMMLFQwunfIz4noElUOZ6TAQ=="/>
                 <enclosure url="https://restretto.app/archive/Restretto1.0.9-1.0.4.delta" sparkle:deltaFrom="1.0.4" length="1771222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ua+CDyuGjDmcziJWjIv8O4ONl1az53cVrWAusfZDf5UA60OHmi837yr3BvwRofNTGCn7JMVTKjWh0ojqsq5+CQ=="/>
                 <enclosure url="https://restretto.app/archive/Restretto1.0.9-1.0.3.delta" sparkle:deltaFrom="1.0.3" length="1812146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="No/CMDzIc/6RD4SD8xsyXznKpALk8J6v5a5y90+dhmdE+9yDqwLS4+Yo0iJQSuXK+JjvphOoiVeuThQgocxOCg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0.7</title>
-            <pubDate>Mon, 02 Feb 2026 16:36:44 +0100</pubDate>
-            <sparkle:fullReleaseNotesLink>https://restretto.app/archive/release_notes.html</sparkle:fullReleaseNotesLink>
-            <sparkle:version>1.0.7</sparkle:version>
-            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://restretto.app/archive/Restretto_1.0.7.zip" length="14554450" type="application/octet-stream" sparkle:edSignature="jMBNG94beDvjFImp+NsMAMefZYDzYvRdJ1sQRWv3fVDQPLD37Z7zg6mFKyamtuWGRe2jZ76wzu1vbxffa/0kCA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://restretto.app/archive/Restretto1.0.7-1.0.6.delta" sparkle:deltaFrom="1.0.6" length="323014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wiEJtV94iT52jPA3CVKgD1SRim183WkNkpPuKRovfTMrL/4sCiap0KyykxvG73oP1k1H0Egtg5Q9WZdI/Hi4BQ=="/>
-                <enclosure url="https://restretto.app/archive/Restretto1.0.7-1.0.5.delta" sparkle:deltaFrom="1.0.5" length="1490274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CffM5SCchGTv4xmNK1lJ+M+IgssLt54mxH6SAM/jzH5qZOx9+fbBylmw3nuy2A4ZLlt7RMlZzbDwICaAGAQaCQ=="/>
-                <enclosure url="https://restretto.app/archive/Restretto1.0.7-1.0.4.delta" sparkle:deltaFrom="1.0.4" length="1744462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LwTl1btiIoK+5F8t5LOy+BYUqoGE8BMeSDLrHAo/vSrXZ0PZA7et976ZqlPIUs4wCmZCFQ1OpOhQl24uUZexAQ=="/>
-                <enclosure url="https://restretto.app/archive/Restretto1.0.7-1.0.3.delta" sparkle:deltaFrom="1.0.3" length="1783594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="858560" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="48dnlQ2IJ+9XqTAODwrn5AQHJIV6WfFlC8kMtHrW/d+75aLA1wKRSKRWS0nBq0PioWTeWAHnNszlznHywUG0Bw=="/>
             </sparkle:deltas>
         </item>
     </channel>
